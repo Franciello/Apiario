@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Apiario" representedClassName="Apiario" syncable="YES">
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantidade" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="listacaixas" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Caixa" inverseName="listaapiario" inverseEntity="Caixa" syncable="YES"/>
+    </entity>
+    <entity name="Caixa" representedClassName="Caixa" syncable="YES">
+        <attribute name="dataColheita" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="listaapiario" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Apiario" inverseName="listacaixas" inverseEntity="Apiario" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Apiario" positionX="43" positionY="33" width="128" height="88"/>
+        <element name="Caixa" positionX="223" positionY="45" width="128" height="88"/>
+    </elements>
+</model>

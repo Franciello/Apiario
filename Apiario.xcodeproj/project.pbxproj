@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D5ACE01B5C27FE00EFAAC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D5ACDF1B5C27FE00EFAAC0 /* main.m */; };
+		02D5ACE31B5C27FE00EFAAC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D5ACE21B5C27FE00EFAAC0 /* AppDelegate.m */; };
+		02D5ACE61B5C27FE00EFAAC0 /* Apiario.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02D5ACE41B5C27FE00EFAAC0 /* Apiario.xcdatamodeld */; };
+		02D5ACEC1B5C27FE00EFAAC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D5ACEA1B5C27FE00EFAAC0 /* Main.storyboard */; };
+		02D5ACEE1B5C27FE00EFAAC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D5ACED1B5C27FE00EFAAC0 /* Images.xcassets */; };
+		02D5ACF11B5C27FE00EFAAC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D5ACEF1B5C27FE00EFAAC0 /* LaunchScreen.xib */; };
+		02D5ACFD1B5C27FF00EFAAC0 /* ApiarioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D5ACFC1B5C27FF00EFAAC0 /* ApiarioTests.m */; };
+		02D5AD081B5C30AB00EFAAC0 /* Modelo.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D5AD071B5C30AB00EFAAC0 /* Modelo.m */; };
+		02D5AD0E1B5C3F4100EFAAC0 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D5AD0D1B5C3F4100EFAAC0 /* TableViewController.m */; };
+		02D5AD111B5C61A100EFAAC0 /* AdicionarApiario.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D5AD101B5C61A100EFAAC0 /* AdicionarApiario.m */; };
+		02D5AD131B5C6B4F00EFAAC0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D5AD121B5C6B4F00EFAAC0 /* CoreData.framework */; };
+		02D5AD161B5C6C0300EFAAC0 /* Apiario.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D5AD151B5C6C0300EFAAC0 /* Apiario.m */; };
+		02DE26491B62E0E2005461A7 /* Caixa.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DE26481B62E0E2005461A7 /* Caixa.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02D5ACF71B5C27FF00EFAAC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02D5ACD21B5C27FE00EFAAC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02D5ACD91B5C27FE00EFAAC0;
+			remoteInfo = Apiario;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D5ACDA1B5C27FE00EFAAC0 /* Apiario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apiario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D5ACDE1B5C27FE00EFAAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D5ACDF1B5C27FE00EFAAC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02D5ACE11B5C27FE00EFAAC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02D5ACE21B5C27FE00EFAAC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02D5ACE51B5C27FE00EFAAC0 /* Apiario.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Apiario.xcdatamodel; sourceTree = "<group>"; };
+		02D5ACEB1B5C27FE00EFAAC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02D5ACED1B5C27FE00EFAAC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02D5ACF01B5C27FE00EFAAC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		02D5ACF61B5C27FF00EFAAC0 /* ApiarioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D5ACFB1B5C27FF00EFAAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D5ACFC1B5C27FF00EFAAC0 /* ApiarioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiarioTests.m; sourceTree = "<group>"; };
+		02D5AD061B5C30AB00EFAAC0 /* Modelo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modelo.h; sourceTree = "<group>"; };
+		02D5AD071B5C30AB00EFAAC0 /* Modelo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Modelo.m; sourceTree = "<group>"; };
+		02D5AD0C1B5C3F4100EFAAC0 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		02D5AD0D1B5C3F4100EFAAC0 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		02D5AD0F1B5C61A100EFAAC0 /* AdicionarApiario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdicionarApiario.h; sourceTree = "<group>"; };
+		02D5AD101B5C61A100EFAAC0 /* AdicionarApiario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdicionarApiario.m; sourceTree = "<group>"; };
+		02D5AD121B5C6B4F00EFAAC0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		02D5AD141B5C6C0300EFAAC0 /* Apiario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apiario.h; sourceTree = "<group>"; };
+		02D5AD151B5C6C0300EFAAC0 /* Apiario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apiario.m; sourceTree = "<group>"; };
+		02DE26471B62E0E2005461A7 /* Caixa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caixa.h; sourceTree = "<group>"; };
+		02DE26481B62E0E2005461A7 /* Caixa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caixa.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02D5ACD71B5C27FE00EFAAC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D5AD131B5C6B4F00EFAAC0 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D5ACF31B5C27FF00EFAAC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D5ACD11B5C27FE00EFAAC0 = {
+			isa = PBXGroup;
+			children = (
+				02D5ACDC1B5C27FE00EFAAC0 /* Apiario */,
+				02D5ACF91B5C27FF00EFAAC0 /* ApiarioTests */,
+				02D5ACDB1B5C27FE00EFAAC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02D5ACDB1B5C27FE00EFAAC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02D5ACDA1B5C27FE00EFAAC0 /* Apiario.app */,
+				02D5ACF61B5C27FF00EFAAC0 /* ApiarioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02D5ACDC1B5C27FE00EFAAC0 /* Apiario */ = {
+			isa = PBXGroup;
+			children = (
+				02D5AD0F1B5C61A100EFAAC0 /* AdicionarApiario.h */,
+				02D5AD101B5C61A100EFAAC0 /* AdicionarApiario.m */,
+				02D5ACE11B5C27FE00EFAAC0 /* AppDelegate.h */,
+				02D5ACE21B5C27FE00EFAAC0 /* AppDelegate.m */,
+				02D5ACEA1B5C27FE00EFAAC0 /* Main.storyboard */,
+				02D5AD0C1B5C3F4100EFAAC0 /* TableViewController.h */,
+				02D5AD0D1B5C3F4100EFAAC0 /* TableViewController.m */,
+				02D5AD061B5C30AB00EFAAC0 /* Modelo.h */,
+				02D5AD071B5C30AB00EFAAC0 /* Modelo.m */,
+				02D5ACED1B5C27FE00EFAAC0 /* Images.xcassets */,
+				02D5ACEF1B5C27FE00EFAAC0 /* LaunchScreen.xib */,
+				02D5ACE41B5C27FE00EFAAC0 /* Apiario.xcdatamodeld */,
+				02DE26471B62E0E2005461A7 /* Caixa.h */,
+				02DE26481B62E0E2005461A7 /* Caixa.m */,
+				02D5AD141B5C6C0300EFAAC0 /* Apiario.h */,
+				02D5AD151B5C6C0300EFAAC0 /* Apiario.m */,
+				02D5ACDD1B5C27FE00EFAAC0 /* Supporting Files */,
+			);
+			path = Apiario;
+			sourceTree = "<group>";
+		};
+		02D5ACDD1B5C27FE00EFAAC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02D5AD121B5C6B4F00EFAAC0 /* CoreData.framework */,
+				02D5ACDE1B5C27FE00EFAAC0 /* Info.plist */,
+				02D5ACDF1B5C27FE00EFAAC0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02D5ACF91B5C27FF00EFAAC0 /* ApiarioTests */ = {
+			isa = PBXGroup;
+			children = (
+				02D5ACFC1B5C27FF00EFAAC0 /* ApiarioTests.m */,
+				02D5ACFA1B5C27FF00EFAAC0 /* Supporting Files */,
+			);
+			path = ApiarioTests;
+			sourceTree = "<group>";
+		};
+		02D5ACFA1B5C27FF00EFAAC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02D5ACFB1B5C27FF00EFAAC0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02D5ACD91B5C27FE00EFAAC0 /* Apiario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D5AD001B5C27FF00EFAAC0 /* Build configuration list for PBXNativeTarget "Apiario" */;
+			buildPhases = (
+				02D5ACD61B5C27FE00EFAAC0 /* Sources */,
+				02D5ACD71B5C27FE00EFAAC0 /* Frameworks */,
+				02D5ACD81B5C27FE00EFAAC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Apiario;
+			productName = Apiario;
+			productReference = 02D5ACDA1B5C27FE00EFAAC0 /* Apiario.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02D5ACF51B5C27FF00EFAAC0 /* ApiarioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D5AD031B5C27FF00EFAAC0 /* Build configuration list for PBXNativeTarget "ApiarioTests" */;
+			buildPhases = (
+				02D5ACF21B5C27FF00EFAAC0 /* Sources */,
+				02D5ACF31B5C27FF00EFAAC0 /* Frameworks */,
+				02D5ACF41B5C27FF00EFAAC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D5ACF81B5C27FF00EFAAC0 /* PBXTargetDependency */,
+			);
+			name = ApiarioTests;
+			productName = ApiarioTests;
+			productReference = 02D5ACF61B5C27FF00EFAAC0 /* ApiarioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02D5ACD21B5C27FE00EFAAC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Franciello;
+				TargetAttributes = {
+					02D5ACD91B5C27FE00EFAAC0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					02D5ACF51B5C27FF00EFAAC0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 02D5ACD91B5C27FE00EFAAC0;
+					};
+				};
+			};
+			buildConfigurationList = 02D5ACD51B5C27FE00EFAAC0 /* Build configuration list for PBXProject "Apiario" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02D5ACD11B5C27FE00EFAAC0;
+			productRefGroup = 02D5ACDB1B5C27FE00EFAAC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02D5ACD91B5C27FE00EFAAC0 /* Apiario */,
+				02D5ACF51B5C27FF00EFAAC0 /* ApiarioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02D5ACD81B5C27FE00EFAAC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D5ACEC1B5C27FE00EFAAC0 /* Main.storyboard in Resources */,
+				02D5ACF11B5C27FE00EFAAC0 /* LaunchScreen.xib in Resources */,
+				02D5ACEE1B5C27FE00EFAAC0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D5ACF41B5C27FF00EFAAC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02D5ACD61B5C27FE00EFAAC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DE26491B62E0E2005461A7 /* Caixa.m in Sources */,
+				02D5ACE31B5C27FE00EFAAC0 /* AppDelegate.m in Sources */,
+				02D5ACE01B5C27FE00EFAAC0 /* main.m in Sources */,
+				02D5AD161B5C6C0300EFAAC0 /* Apiario.m in Sources */,
+				02D5AD081B5C30AB00EFAAC0 /* Modelo.m in Sources */,
+				02D5AD0E1B5C3F4100EFAAC0 /* TableViewController.m in Sources */,
+				02D5AD111B5C61A100EFAAC0 /* AdicionarApiario.m in Sources */,
+				02D5ACE61B5C27FE00EFAAC0 /* Apiario.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D5ACF21B5C27FF00EFAAC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D5ACFD1B5C27FF00EFAAC0 /* ApiarioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02D5ACF81B5C27FF00EFAAC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02D5ACD91B5C27FE00EFAAC0 /* Apiario */;
+			targetProxy = 02D5ACF71B5C27FF00EFAAC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02D5ACEA1B5C27FE00EFAAC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02D5ACEB1B5C27FE00EFAAC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02D5ACEF1B5C27FE00EFAAC0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02D5ACF01B5C27FE00EFAAC0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02D5ACFE1B5C27FF00EFAAC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02D5ACFF1B5C27FF00EFAAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02D5AD011B5C27FF00EFAAC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Apiario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02D5AD021B5C27FF00EFAAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Apiario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02D5AD041B5C27FF00EFAAC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ApiarioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apiario.app/Apiario";
+			};
+			name = Debug;
+		};
+		02D5AD051B5C27FF00EFAAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ApiarioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apiario.app/Apiario";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02D5ACD51B5C27FE00EFAAC0 /* Build configuration list for PBXProject "Apiario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D5ACFE1B5C27FF00EFAAC0 /* Debug */,
+				02D5ACFF1B5C27FF00EFAAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D5AD001B5C27FF00EFAAC0 /* Build configuration list for PBXNativeTarget "Apiario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D5AD011B5C27FF00EFAAC0 /* Debug */,
+				02D5AD021B5C27FF00EFAAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D5AD031B5C27FF00EFAAC0 /* Build configuration list for PBXNativeTarget "ApiarioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D5AD041B5C27FF00EFAAC0 /* Debug */,
+				02D5AD051B5C27FF00EFAAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02D5ACE41B5C27FE00EFAAC0 /* Apiario.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02D5ACE51B5C27FE00EFAAC0 /* Apiario.xcdatamodel */,
+			);
+			currentVersion = 02D5ACE51B5C27FE00EFAAC0 /* Apiario.xcdatamodel */;
+			path = Apiario.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02D5ACD21B5C27FE00EFAAC0 /* Project object */;
+}
