@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Modelo.h"
+#import "Caixa.h"
 #import "Apiario.h"
 
 @interface AdicionarApiario : UIViewController
 
-@property (strong, nonatomic) Modelo *modelo;
+@property (strong, nonatomic) Caixa *caixa;
 @property (strong, nonatomic) Apiario *apiario;
 
 @end
