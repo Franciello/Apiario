@@ -49,11 +49,19 @@
     NSManagedObjectContext *context = [self managedObjectContext];
     
     self.apiario = [NSEntityDescription insertNewObjectForEntityForName:@"Apiario" inManagedObjectContext:context];
-    
-    
-    
     [self.apiario setValue:self.txtNomeApiario.text forKey:@"nome"];
     [self.apiario setValue:self.txtQuantidade.text forKey:@"quantidade"];
+    
+    //Cria EntityDescription passando sua Entidade caixa com o contexto criado acima
+    self.caixa = [NSEntityDescription insertNewObjectForEntityForName:@"Caixa" inManagedObjectContext:context];
+    
+    //Cria um Date Picker pra poder pegar a data
+    //http://www.ioscreator.com/tutorials/displaying-date-with-date-picker-ios7 Só tirar hora e min
+    [self.caixa setValue:/*Mudar para dataColheita*/self.txtNomeApiario/*Mudar para dataColheita*/ forKey:@"dataColheita"];
+    [self.caixa setValue:/*Mudar para nome caixa*/self.txtNomeApiario/*Mudar para nome caixa*/ forKey:@"nome"];
+    
+    //Relacionamento da caixa com o apiario
+    [self.caixa setValue:self.apiario forKey:@"listaapiario"];
     
     NSError *error = nil;
     if (![context save:&error]) {
